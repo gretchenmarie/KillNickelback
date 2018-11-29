@@ -33,7 +33,7 @@ namespace nickelback
             }
 
             // Display all unique model names
-            foreach ((string songName, string artistName) song in goodSongs)
+            foreach ((string artistName, string songName) song in goodSongs)
             {
                 Console.WriteLine($"this is a good song, {song.songName}, by {song.artistName}!");
             }
